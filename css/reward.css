@@ -1,0 +1,97 @@
+header {
+    background-color: #1b1b1b;
+    height: 70px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    margin: 0 auto;
+}
+
+header h1 {
+    color: #f5f5f5;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    line-height: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body {
+    justify-content: center;
+    height: 1000px;
+    Width:800px;
+    margin: 0 auto;
+    background-color: #1b1b1b;
+}
+
+
+#app {
+    padding-top: 20px;
+    text-align: center;
+    border-radius: 2%;
+    margin-bottom: 10px;
+    height: 700px;
+    background-color: #f5f5f5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#app h2, h3 {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #1b1b1b;
+    font-weight: bold;
+}
+
+.reward-picture img{
+    height: 100px;
+}
+
+.bottom-picture img{
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+#choices button {
+    margin: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    background-color: #d8d8d8;
+}
+
+#result {
+    margin-top: 2rem;
+    font-size: 2rem;
+}
+
+
+
+.btn {
+    margin: 1rem;
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+}
+
+
+#next{
+    margin-top: 50px;
+    display: inline-block;
+    padding: 0.8em 3em;
+    background-color: #393939; /* 背景色 */
+    box-shadow: 0 5px 0 #151515; /* 影の太さ・色 */
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none; /* 文字の下線を消す */
+}
+#next a{
+    color: #fff;
+    text-decoration: none; /* 文字の下線を消す */
+}
+
+#next:active {
+    box-shadow: none;
+    transform: translateY(5px);
+  }
+

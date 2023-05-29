@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<script src="/js/app_chris.js"></script>
+<link rel="stylesheet" href="/css/reset.css">
+<link rel="stylesheet" href="/css/chris.css">
+<title>じゃんけんチャレンジ</title>
+</head>
+<header>
+    <h1>じゃんけんに勝って犯人を捕まえろ！</h1>
+  </header>
+<body>
+<body>
+    <div id="app">
+        <h2>MISSON 3：クリストファーを捕まえろ</h2>
+        <p>オンライン詐欺のエキスパート</p>
+        <p>巧妙なフィッシング攻撃で個人情報を盗み、銀行アカウントを不正アクセスする。</p>
+        <p>じゃんけんに勝ってベンジャミンを捕まえよう！</p>
+        <div class = "top-picture">
+            <img src ="/img/chri_nomal.png" class="picture">
+        </div>
+        <div id="choices" class = "fadeIn txt03">
+            <h3>じゃんけんの手を選ぼう</h3>
+            <button onclick="play('rock')"><img src = "/img/gu.png" height="50"></button>
+            <button onclick="play('scissors')"><img src = "/img/choki.png" height="50"></button>
+            <button onclick="play('paper')"><img src = "/img/paa.png" height="50"></button>
+        </div>
+        <p id="userChoice"></p>
+        <p id="result"></p>
+    <!-- 次に進むのボタン -->
+    <div>
+        <a id = "next" src = next()></a>
+    </div>
+
+    </div>
+    <script src="/app_chris.js"></script>
+</body>
+</html>
